@@ -1,0 +1,29 @@
+body {
+    margin: .5rem;
+}
+span {
+    font-weight: 700;
+}
+#currentdate {
+    color:rgb(10, 10, 235);
+}
+header, footer {
+    background-color: #187795;
+    padding: 1,5rem;
+    width: 500px;
+}
+image {
+    display: inline;
+    padding-left: 0,5;
+    border: 5px solid #CCC;
+}
+h1 {
+    display: inline;
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left: 50px;
+    text-align: center;
+    grid-row: 1/2;
+}
+
+
