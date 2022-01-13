@@ -26,5 +26,7 @@ let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
 let year = d.getFullYear();
 let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + d.getFullYear();
-
+let lastModified = LastUpdated;
 document.getElementById("currentdate").textContent = fulldate;
+var LastUpdated = document.lastModified;
+document.writeln (LastUpdated);
