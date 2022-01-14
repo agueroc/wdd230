@@ -1,5 +1,5 @@
 body {
-    margin: .5rem;
+    margin: 100px;
 }
 span {
     font-weight: 700;
@@ -13,11 +13,11 @@ header, footer {
     background-color: #2cbdb4;
     padding: 0.5rem;
     width: 500px;
+    align-items: center;
 }
 header {
     max-width: 500px;
     max-height: 200px;
-    text-align: top;
 }
 image {
     display: inline;
@@ -32,4 +32,7 @@ h1 {
 }
 .lastupdated {
     margin-left: 150px;
+}
+ul {
+    font-weight: 700;
 }
