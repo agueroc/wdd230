@@ -1,32 +1,14 @@
-let daynames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-    ];
-let months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-];
+//Declaring date variable
 let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
+
+//Retreiving Year
 let year = d.getFullYear();
-let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + d.getFullYear();
-let lastModified = LastUpdated;
-document.getElementById("currentdate").textContent = fulldate;
+
+//Displaying Year
+document.getElementById("year").textContent = year;
+
+//Declaring and Assigning lastModified variable
 var LastUpdated = document.lastModified;
-document.writeln (LastUpdated);
+
+//Displaying lastModified variable
+document.getElementById("lastupdated").innerHTML = LastUpdated.toString();
