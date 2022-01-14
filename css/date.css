@@ -8,10 +8,6 @@ body {
 span {
     font-weight: 700;
 }
-#currentdate {
-    color:rgba(1, 45, 28, 0.701);
-    font-style: normal;
-}
 header, footer {
     font-family: 'EB Garamond', serif;
     background-color: #2cbdb4;
@@ -30,7 +26,6 @@ header {
 image {
     display: inline;
     padding-left: 0.5rem;
-    border: 5px solid #CCC;
 }
 h1 {
     font-family: 'Calistoga', cursive;
