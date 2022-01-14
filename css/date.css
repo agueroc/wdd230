@@ -22,7 +22,7 @@ header, footer {
 }
 header {
     grid-template-columns: 1fr;
-    grid-template-rows: 2/2;
+    grid-template-rows: 1fr;
     display: flex;
     max-width: 500px;
     max-height: 200px;
