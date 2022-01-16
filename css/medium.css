@@ -1,3 +1,16 @@
 @media only screen and (min-width: 32.5em) {
-    
+    header, footer {
+        font-family: 'EB Garamond', serif;
+        background-color: #2cbdb4;
+        padding: 0.5rem;
+        width: 300px;
+        align-items: center;
+        margin-left: 50px;
+    }
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        display: flex;
+        max-height: 200px;
+    }
 }
