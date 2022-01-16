@@ -10,7 +10,7 @@
     header {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        display: flex;
-        max-height: 200px;
+        width: 500px;
+        max-height: 300px;
     }
 }
