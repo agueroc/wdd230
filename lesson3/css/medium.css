@@ -1,0 +1,8 @@
+@media only screen and (min-width: 35rem) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li a {
+        border: none;
+    }
+} /* end medium */
