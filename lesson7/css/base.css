@@ -1,7 +1,18 @@
-
+main {
+    align-content: center;
+}
 picture {
     display:flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    transition: filter 0.5s;
+}
+.images {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
 }

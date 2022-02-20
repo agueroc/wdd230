@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazy Load</title>
     <meta name="description" content="Progressive Loading with Images">
-    <link href="styles/lazyload.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
     <script defer src="scripts/lazyloading.js"></script>
 </head>
 
 <body>
     <main>
         <h1>Progressing Loading (Images)</h1>
+        <div class="images">
         <picture>
-            <img src ="images/img1.jpg" loading="lazy" width="200" height="300" alt="walking">
-            <img src ="images/img2.jpg" loading="lazy" width="200" height="300" alt="playing">
-            <img src ="images/img3.jpg" loading="lazy" width="200" height="300" alt="water">
-            <img src ="images/img4.jpg" loading="lazy" width="200" height="300" alt="trees">
-            <img src ="images/img5.jpg" loading="lazy" width="200" height="300" alt="fields">
+            <img src="images/placeholder.png" data-src="images/img1.jpg" loading="lazy" width="200" height="300" alt="walking">
+            <img src="images/placeholder.png" data-src ="images/img2.jpg" loading="lazy" width="200" height="300" alt="playing">
+            <img src="images/placeholder.png" data-src ="images/img3.jpg" loading="lazy" width="200" height="300" alt="water">
+            <img src="images/placeholder.png" data-src ="images/img4.jpg" loading="lazy" width="200" height="300" alt="trees">
+            <img src="images/placeholder.png" data-src ="images/img5.jpg" loading="lazy" width="200" height="300" alt="fields">
         </picture>
+    </div>
     </main>
-    <script src="js/script.js"></script>
+    <script src="scripts/lazyloading.js"></script>
 </body>
 </html>
